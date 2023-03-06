@@ -1,0 +1,129 @@
+header {
+    display: flex;
+    height: 60px;
+    background-color: black;
+}
+
+.logo {
+    display: flex;
+    width: 38%;
+}
+
+.homeAdopted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 30%;
+}
+.homeAdopted a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10%;
+}
+
+
+#home{
+    /* height: auto; */
+    background-color: green;
+}
+#adopted{
+    /* height: 200px; */
+    min-height: 75vh;
+    background-color: red;
+}
+#donate{
+   
+    background-color: blue;
+}
+#home .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 0.5%;
+    /* width: 200px; */
+}
+
+#donate .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#donateForm {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5%;
+}
+/* #table{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 5%;
+    border: 2px solid black;
+    bor
+} */
+
+.cherta{
+    border: 1px solid black;
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#adopted .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 0.5%;
+}
+
+
+#login form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+#login{
+    background-color: khaki;
+    min-height: 100vh;
+}
+
+#register form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+#register{
+    background-color: khaki;
+    min-height: 100vh;
+}
+
+#logout{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#logout div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
