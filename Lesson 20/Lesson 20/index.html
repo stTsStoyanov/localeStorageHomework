@@ -22,17 +22,15 @@
         #login {
             background-color: blueviolet;
         }
+        #logout{
+            background-color: aqua;
+        }
 
         #register {
             background-color: khaki;
         }
         #home {
             background-color: coral;
-        }
-        #logout{
-            background-color: blue;
-            flex-direction: column;
-            gap: 10px;
         }
 
         footer {
@@ -64,34 +62,30 @@
     </style>
 </head>
 <body>
-
     <nav>
-        <a href="#login" id="loginNav">Login</a>
-        <!-- <a href="#logout" id="logoutNav">Logout</a> -->
-        <a href="#register">Register</a>
+        <a href="#login" id="loginNavBtn">Login</a>
+        <a href="#register" id="registerNavBtn">Register</a>
         <a href="#home">Home</a>
     </nav>
 
 
-
     <div class="page" id="login">
 
-        <form id="loginForm" >
+        <form id="loginForm">
             <input name="username" type="text" placeholder="username">
-            <input name="pass" type="password" placeholder="pass">
+            <input name="password" type="password" placeholder="password">
             <input name="sub" type="submit" value="Login">
         </form>
 
     </div>
 
-
-
-
     <div class="page" id="logout">
-        <span id="span"></span>
+
         <form id="logoutForm">
-            <input name="logout" type="submit" value="Logout">
+            <span id="spanLogout"></span>
+            <input name="sub" type="submit" value="Login">
         </form>
+
     </div>
 
 
@@ -100,21 +94,15 @@
 
         <form id="registerForm">
             <input name="username" type="text" placeholder="username">
-            <input name="pass" type="password" placeholder="pass">
-            <input name="passConfirm" type="password" placeholder="confirm pass">
+            <input name="password" type="password" placeholder="password">
+            <input name="passwordConfirm" type="password" placeholder="confirm pass">
             <input name="sub" type="submit" value="Register">
         </form>
+
     </div>
-
-
-
     <div class="page" id="home"></div>
-
-
-
     <footer>Footer!</footer>
     <script src="./UserManager.js"></script>
-    <!-- <script src="./ViewController.js"></script> -->
-    <script src="./v.js"></script>
+    <script src="./ViewController.js"></script>
 </body>
 </html>

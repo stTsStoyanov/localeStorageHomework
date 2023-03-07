@@ -6,7 +6,7 @@ let list = [
     
 ];
 
-let {id,first_name,last_name,age,gender, address} = list[0];
+let {id,first_name,last_name,age,gender} = list[0];
 // destructuring converts a group of variables into multiple variables with separate name
 
-console.log(address);
+console.log(first_name);

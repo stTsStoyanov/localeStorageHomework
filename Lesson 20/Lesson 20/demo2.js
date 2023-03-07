@@ -13,4 +13,4 @@ a.first_name = "Gosho!";
 
 // console.log(list[0]);
 // console.log(a,c);
-console.log(c);
+console.log(bahur);
